@@ -597,11 +597,12 @@ top: 2068px;
     left: 219px;
     top: 3176px;
 }
+
 .subscribe{
     position: absolute;
     width: 94px;
     height: 30px;
-    left: px;
+    left: -112px;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -613,7 +614,7 @@ top: 2068px;
 } 
 .email{
     position: absolute;
-    left: 0%;
+    left: -11%;
     right: 0%;
     top: 49px;
     bottom: 0%;
@@ -636,7 +637,7 @@ top: 2068px;
     height: 56px;
     right: 0px; 
     top: calc(50% - 172px/2); 
-    left: 298px;
+    left: 188px;
     background: #4B4B58;
     border-radius: 4px; 
     border: none;
@@ -645,7 +646,7 @@ top: 2068px;
     position: absolute;
     width: 80px;
     height: 24px;
-    left: 568px;
+    left: 450px;
     top: 6px;
     font-style: normal;
     font-weight: bold;
@@ -658,7 +659,7 @@ top: 2068px;
     position: absolute;
     width: 45px;
     height: 24px;
-    left: 568px;
+    left: 450px;
     top: 53px;
     font-style: normal;
     font-weight: normal;
@@ -671,7 +672,7 @@ top: 2068px;
     position: absolute;
     width: 57px;
     height: 24px;
-    left: 568px;
+    left: 450px;
     top: 93px;
     font-style: normal;
     font-weight: normal;
@@ -684,7 +685,7 @@ top: 2068px;
     position: absolute;
     width: 32px;
     height: 24px;
-    left: 569px;
+    left: 453px;
     top: 133px;
     font-style: normal;
     font-weight: normal;
@@ -693,7 +694,45 @@ top: 2068px;
     letter-spacing: -0.02em;
     color: #4B4B58;
 }
-
+.slide1{
+    position: absolute;
+    left: 550px;
+    top: 52px;
+}
+.terms{
+    width: 162px;
+    height: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #4B4B58;
+}
+.privacy{
+    position: relative;
+    top: 17px;
+    width: 122px;
+    height: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #4B4B58;
+}
+.legal{
+    position: relative;
+    top: 32px;
+    width: 122px;
+    height: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #4B4B58;
+}
 .touch{
     position: absolute;
     width: 140px;
@@ -1357,7 +1396,7 @@ top: 2068px;
         position: absolute;
         width: 45px;
         height: 24px;
-        left: 1px;
+        left: 2px;
         top: 144px;
         font-style: normal;
         font-weight: normal;
@@ -1392,12 +1431,19 @@ top: 2068px;
         letter-spacing: -0.02em;
         color: #4B4B58;
     }
+    .slide1{
+        left: 144px;
+        top: 143px;
+    }
+    .terms{
+        width: 140px;
+    }
     .touch {
         position: absolute;
         width: 140px;
         height: 24px;
-        left: 132px;
-        top: 99px;
+        left: 5px;
+        top: 299px;
         font-style: normal;
         font-weight: bold;
         font-size: 16px;
@@ -1409,8 +1455,8 @@ top: 2068px;
         position: absolute;
         width: 189px;
         height: 24px;
-        left: 134px;
-        top: 144px;
+        left: 5px;
+        top: 348px;
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
@@ -1422,8 +1468,8 @@ top: 2068px;
         position: absolute;
         width: 146px;
         height: 24px;
-        left: 134px;
-        top: 185px;
+        left: 5px;
+        top: 385px;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
@@ -1433,8 +1479,8 @@ top: 2068px;
     }
     .twitter {
         position: absolute;
-        left: 43.25%;
-        top: 63.5%;
+        left: 25.25%;
+        top: 127.5%;
         border: solid;
         padding: 0.7em;
         background: #E4E4E9;
@@ -1444,8 +1490,8 @@ top: 2068px;
     }
     .fb {
         position: absolute;
-        left: 59%;
-        top: 63.5%;
+        left: 43.2%;
+        top: 127.5%;
         border: solid;
         padding: 0.7em;
         background: #E4E4E9;
@@ -1455,8 +1501,8 @@ top: 2068px;
     }
     .ig {
         position: absolute;
-        left: 74.9%;
-        top: 63.5%;
+        left: 60.9%;
+        top: 127.5%;
         border: solid;
         padding: 0.7em;
         background: #E4E4E9;
@@ -1576,12 +1622,15 @@ nav {
     z-index: 1;
 }
 .hrdlogo{
-    width: 120px;
-    left: 42px;
+    width: 140px;
+    left: 12px;
     top: 13px;
 }
+nav .menu li a{
+    font-size: 17.6px;
+}
 .gettoknow{
-    left: 17px;
+    left: 71px;
     font-weight: 900;
 }
 nav .menu {
@@ -1625,7 +1674,7 @@ nav li a:hover{
     top: 12px;
     /* top: 50px; */
     /* top: 42px; */
-    left: -92px;
+    left: -4px;
 }
 
 .menu-icon span {
@@ -1695,7 +1744,126 @@ nav .btn {
     display: block;
     position: relative;
     top: -13px;
-    left: 135px;
+    left: 140px;
+    font-size: 17.6px;
+    height: 62px;
+    width: 194px;
+    left: 119px;
+}
+ul.menu{
+    top: 90px;
+}
+
+
+.offer{
+    left: 59px;
+}
+.list{
+    left: 182px;
+}
+.gridpics{
+    left: 59px;
+}
+.easier{
+    left: 103px;
+}
+.sharing{
+    left: 102px;
+}
+.milestone{
+    left: 160px;
+}
+.started{
+    left: 80px;
+}
+.ellipseone{
+    left: 173px;
+}
+.idea{
+    left: 194px;
+}
+.mile{
+    left: 199px;
+}
+.understanding{
+    left: 155px;
+}
+.ellipse22{
+    left: 173px;
+}
+.headache{
+    left: 197px;
+}
+.mile2{
+    left: 193px;
+}
+.painpoint{
+    left: 146px;
+}
+.ellipse23{
+    left: 173px;
+}
+.building1{
+    left: 198px;
+}
+.mile3{
+    left: 199px;
+}
+.building{
+    left: 58px;
+}
+.ellipse24{
+    left: 173px;
+}
+.delivery{
+    left: 199px;
+}
+.mile4{
+    left: 193px;
+}
+.pixels{
+    left: 158px;
+}
+.ellipse25{
+    left: 173px;
+}
+.test1{
+    left: 205px;
+}
+.mile5{
+    left: 193px;
+}
+.test{
+    left: 152px;
+}
+.values{
+    left: 132px;
+}
+.paramount{
+    left: 86px;
+}
+.lineup1{
+    left: 132px;
+}
+.lineup2{
+    left: 132px;
+}
+.lineup3{
+    left: 132px;
+}
+.lastpage{
+    left: 88px;
+}
+.subscribe{
+    top: -32px;
+    left: 115px;
+}
+.email{
+    left: 11px;
+}
+.btnsub{
+    left: 180px;
+    width: 120px;
 }
 }
 
@@ -1732,3 +1900,409 @@ nav img {
 }
 
 
+@media screen and (max-width: 414px){
+    .menu-icon{
+       left: 2px; 
+    }
+    ul.menu{
+        top: 82px;
+    }
+    .down2{
+        font-size: 17.6px;
+        height: 62px;
+        width: 194px;
+        left: 89px;
+    }
+    nav .menu li a{
+        font-size: 17.6px;
+    }
+    .hrdlogo{
+        left: 9px;
+        width: 150px;
+    }
+    .gettoknow{
+        left: 31px;
+    }
+    .offer{
+        left: 30px;
+    }
+    .list{
+        left: 148px;
+    }
+    .gridpics{
+        left: 29px;
+    }
+    .easier{
+        left: 72px;
+    }
+    .sharing{
+        left: 74px;
+    }
+    .milestone{
+        left: 133px;
+    }
+    .started{
+        left: 59px;
+    }
+    .ellipseone{
+        left: 148px;
+    }
+    .idea{
+        left: 170px;
+    }
+    .mile{
+        left: 174px;
+    }
+    .understanding{
+        left: 128px;
+    }
+    .ellipse22{
+        left: 148px;
+    }
+    .headache{
+        left: 172px;
+    }
+    .mile2{
+        left: 168px;
+    }
+    .painpoint{
+        left: 125px;
+    }
+    .ellipse23{
+        left: 148px;
+    }
+    .building1{
+        left: 175px;
+    }
+    .mile3{
+        left: 173px;
+    }
+    .building{
+        left: 29px;
+    }
+    .ellipse24{
+        left: 148px;
+    }
+    .delivery{
+        left: 176px;
+    }
+    .mile4{
+        left: 172px;
+    }
+    .pixels{
+        left: 137px;
+    }
+    .ellipse25{
+        left: 148px;
+    }
+    .test1{
+        left: 182px;
+    }
+    .mile5{
+        left: 172px;
+    }
+    .test{
+        left: 129px;
+    }
+    .values{
+        left: 112px;
+    }
+    .paramount{
+        left: 54px;
+    }
+    .lineup1{
+        left: 106px;
+    }
+    .lineup2{
+        left: 106px;
+    }
+    .lineup3{
+        left: 106px;
+    }
+    .lastpage{
+        left: 68px;
+    }
+    .subscribe{
+        top: -32px;
+        left: 115px;
+    }
+    .email{
+        left: 11px;
+    }
+    .btnsub{
+        left: 180px;
+        width: 114px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .menu-icon{
+       left: 2px; 
+    }
+    ul.menu{
+        top: 82px;
+    }
+    .down2{
+        font-size: 17.6px;
+        height: 62px;
+        width: 194px;
+        left: 69px;
+    }
+    nav .menu li a{
+        font-size: 17.6px;
+    }
+    .hrdlogo{
+        left: 9px;
+        width: 130px;
+    }
+    .gettoknow{
+        left: 4px;
+    }
+    .offer{
+        left: 5px;
+    }
+    .list{
+        left: 128px;
+    }
+    .gridpics{
+        left: 8px;
+    }
+    .easier{
+        left: 52px;
+    }
+    .sharing{
+        left: 50px;
+    }
+    .milestone{
+        left: 113px;
+    }
+    .started{
+        left: 39px;
+    }
+    .ellipseone{
+        left: 128px;
+    }
+    .idea{
+        left: 150px;
+    }
+    .mile{
+        left: 154px;
+    }
+    .understanding{
+        left: 108px;
+    }
+    .ellipse22{
+        left: 128px;
+    }
+    .headache{
+        left: 152px;
+    }
+    .mile2{
+        left: 148px;
+    }
+    .painpoint{
+        left: 105px;
+    }
+    .ellipse23{
+        left: 128px;
+    }
+    .building1{
+        left: 155px;
+    }
+    .mile3{
+        left: 153px;
+    }
+    .building{
+        left: 9px;
+    }
+    .ellipse24{
+        left: 128px;
+    }
+    .delivery{
+        left: 156px;
+    }
+    .mile4{
+        left: 152px;
+    }
+    .pixels{
+        left: 117px;
+    }
+    .ellipse25{
+        left: 128px;
+    }
+    .test1{
+        left: 162px;
+    }
+    .mile5{
+        left: 152px;
+    }
+    .test{
+        left: 112px;
+    }
+    .values{
+        left: 95px;
+    }
+    .paramount{
+        left: 34px;
+    }
+    .lineup1{
+        left: 82px;
+    }
+    .lineup2{
+        left: 82px;
+    }
+    .lineup3{
+        left: 82px;
+    }
+    .lastpage{
+        left: 40px;
+    }
+    .subscribe{
+        top: -32px;
+        left: 115px;
+    }
+    .email{
+        left: 11px;
+    }
+    .btnsub{
+        left: 180px;
+        width: 114px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .menu-icon{
+       left: 72px; 
+    }
+    ul.menu{
+        top: 82px;
+        width: 434px;
+    }
+    .down2{
+        font-size: 17.6px;
+        height: 62px;
+        width: 194px;
+        left: 95px;
+    }
+    nav .menu li a{
+        font-size: 17.6px;
+        left: -2px;
+    }
+    .hrdlogo{
+        left: 9px;
+        width: 130px;
+    }
+    .gettoknow{
+        left: 32px;
+    }
+    .offer{
+        left: 30px;
+    }
+    .list{
+        left: 158px;
+    }
+    .gridpics{
+        left: 33px;
+    }
+    .easier{
+        left: 75px;
+    }
+    .sharing{
+        left: 72px;
+    }
+    .milestone{
+        left: 133px;
+    }
+    .started{
+        left: 59px;
+    }
+    .ellipseone{
+        left: 148px;
+    }
+    .idea{
+        left: 170px;
+    }
+    .mile{
+        left: 174px;
+    }
+    .understanding{
+        left: 128px;
+    }
+    .ellipse22{
+        left: 148px;
+    }
+    .headache{
+        left: 172px;
+    }
+    .mile2{
+        left: 171px;
+    }
+    .painpoint{
+        left: 125px;
+    }
+    .ellipse23{
+        left: 148px;
+    }
+    .building1{
+        left: 175px;
+    }
+    .mile3{
+        left: 173px;
+    }
+    .building{
+        left: 29px;
+    }
+    .ellipse24{
+        left: 148px;
+    }
+    .delivery{
+        left: 176px;
+    }
+    .mile4{
+        left: 178px;
+    }
+    .pixels{
+        left: 140px;
+    }
+    .ellipse25{
+        left: 148px;
+    }
+    .test1{
+        left: 182px;
+    }
+    .mile5{
+        left: 178px;
+    }
+    .test{
+        left: 136px;
+    }
+    .values{
+        left: 112px;
+    }
+    .paramount{
+        left: 54px;
+    }
+    .lineup1{
+        left: 109px;
+    }
+    .lineup2{
+        left: 109px;
+    }
+    .lineup3{
+        left: 109px;
+    }
+    .lastpage{
+        left: 68px;
+    }
+    .subscribe{
+        top: -32px;
+        left: 115px;
+    }
+    .email{
+        left: 11px;
+    }
+    .btnsub{
+        left: 180px;
+        width: 114px;
+    }
+}
